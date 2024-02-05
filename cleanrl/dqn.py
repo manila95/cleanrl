@@ -14,6 +14,9 @@ import tyro
 from stable_baselines3.common.buffers import ReplayBuffer
 from torch.utils.tensorboard import SummaryWriter
 
+from risk.models import * 
+from risk.buffers import *
+
 
 @dataclass
 class Args:
